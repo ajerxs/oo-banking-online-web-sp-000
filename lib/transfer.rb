@@ -9,7 +9,7 @@ class Transfer
   end
 
   def valid?
-    if sender.status != "closed" && receiver.status != "closed"
+    if sender.valid? && receiver.valid?
       true
     end
   end
