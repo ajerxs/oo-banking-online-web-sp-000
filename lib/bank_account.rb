@@ -5,5 +5,6 @@ class BankAccount
     @name = name
     @balance = 1000
     @status = "open"
+    raise_error if self.name != name
   end
 end
