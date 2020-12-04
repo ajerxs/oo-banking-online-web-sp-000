@@ -8,5 +8,10 @@ class Transfer
     @amount = amount
   end
 
+  def valid?
+    if sender.status != "closed" && receiver.status != "closed"
+      true
+    end
+  end
 
 end
