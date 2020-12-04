@@ -20,8 +20,6 @@ class Transfer
       receiver.balance += amount
       @status = "complete"
     end
-    if self.status == "complete"
-
   end
 
 
