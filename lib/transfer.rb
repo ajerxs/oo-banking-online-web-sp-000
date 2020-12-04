@@ -21,7 +21,7 @@ class Transfer
       @status = "complete"
     end
     if self.status == "complete"
-      
+
   end
 
 
