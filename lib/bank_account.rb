@@ -5,5 +5,6 @@ class BankAccount
     @name = name
     @balance = 1000
     @status = "open"
+    expect {raise self.name}.to raise_error
   end
 end
